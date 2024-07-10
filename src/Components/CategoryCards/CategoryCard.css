@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+
+.category-card {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 4px #dbdbdb;
+    transition: all .3s;
+}
+
+.category-card:hover {
+    box-shadow: 0 0 5px #b6b6b6;
+}
+
+.category-card span {
+    color: var(--main-color);
+}
+
+.category-card h5 {
+    text-transform: capitalize;
+    color: #636363;
+}

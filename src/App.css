@@ -1,0 +1,24 @@
+:root {
+    --main-color: #a82704;
+    --dark-gray: #444;
+    --light-gray: #f4f4f4;
+    --light-gray2: #cccccc;
+    --light-pink: #ffeded;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myfont {
+    font-family: 'Lobster', sans-serif;
+}
+
+.star-icon {
+    color: rgb(255, 255, 18);
+    font-size: 18px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}

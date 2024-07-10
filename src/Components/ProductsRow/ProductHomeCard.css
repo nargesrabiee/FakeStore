@@ -1,0 +1,31 @@
+.product-card {
+    padding: 20px;
+    border: none;
+}
+
+.img-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.product-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: var(--dark-gray);
+}
+
+.product-card button {
+    font-weight: bold;
+    color: var(--dark-gray);
+    background-color: var(--light-gray);
+    transition: all .3s;
+}
+
+.product-card button:hover {
+    background-color: var(--light-gray2);
+}
+
+.price {
+    font-size: 18px;
+}

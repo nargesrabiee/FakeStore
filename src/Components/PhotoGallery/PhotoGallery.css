@@ -1,0 +1,10 @@
+.gallery-img {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.gallery-img:hover {
+    filter: brightness(80%);
+    transform: scale(1.02);
+}

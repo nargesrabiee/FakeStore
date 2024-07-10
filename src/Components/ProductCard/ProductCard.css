@@ -1,0 +1,21 @@
+.product-card {
+    box-shadow: 0 0 5px 0 var(--light-gray2);
+}
+
+.product-card h5 {
+    height: 72px;
+}
+
+.product-card button{
+    width: 100%;
+}
+
+.product-card button:hover {
+    color: #fff;
+    background-color: var(--main-color);
+}
+
+.img-card-container img {
+    width: 130px;
+    height: 130px;
+}

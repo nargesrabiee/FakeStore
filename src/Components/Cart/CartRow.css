@@ -1,0 +1,29 @@
+.cart-item-img img {
+    width: 60px;
+    height: 60px;
+}
+
+.cart-item-count input{
+    font-weight: bold;
+    width: 40px;
+    height: 25px;
+    color: var(--dark-gray);
+}
+
+.cart-item-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.delete-cart-item {
+    border: 2px solid var(--main-color);
+    color: var(--main-color);
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.delete-cart-item:hover {
+    background-color: var(--main-color);
+    color: #fff;
+}
+

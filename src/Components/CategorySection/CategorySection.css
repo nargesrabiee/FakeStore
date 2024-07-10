@@ -1,0 +1,27 @@
+.categories-part {
+    background-color: var(--light-gray);
+    margin: 0 20px;
+    border-radius: 5px;
+    padding: 30px 0;
+}
+
+.categories-part h3,
+.categories-part .icon {
+    color: var(--main-color);
+}
+
+.categories-part li {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.categories-part a {
+    text-decoration: none;
+    color: var(--dark-gray);
+    transition: all .2s;
+}
+
+.categories-part a:hover {
+    color: var(--main-color);
+    font-weight: bold;
+}

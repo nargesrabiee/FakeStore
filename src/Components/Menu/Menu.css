@@ -1,0 +1,28 @@
+.logo {
+    font-size: 45px;
+    color: var(--main-color);
+    cursor: default;
+}
+
+.logo:hover {
+    color: var(--main-color);
+}
+
+.menu-link {
+    text-decoration: none;
+    color: #595959;
+}
+
+.cart-badge {
+    display: inline-flex;
+    width: 13px;
+    height: 13px;
+    background-color: var(--main-color);
+    color: #fff;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+}

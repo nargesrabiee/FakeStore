@@ -1,0 +1,38 @@
+/* navbar */
+.previousPage .icon {
+    color: var(--dark-gray);
+    font-size: 40px;
+}
+
+.previousPage:hover .icon {
+    color: var(--main-color);
+}
+
+/* header */
+.userPage-header {
+    background-color: var(--light-gray);
+}
+
+.user-icon {
+    color: #333;
+}
+
+.user-name {
+    text-transform: capitalize;
+}
+
+.exit-btn{
+    background-color: var(--light-gray);
+    color: rgb(208, 12, 12);
+    border: 2px solid rgb(208, 12, 12);
+    font-weight: bold;
+}
+
+.exit-btn:hover {
+    background-color: rgb(208, 12, 12);
+    color: #fff;
+}
+
+#pp {
+    font-size: 100px;
+}

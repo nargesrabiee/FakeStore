@@ -1,0 +1,21 @@
+.socialmedia-container{
+    margin-top: 150px;
+    padding: 20px 0;
+    background-color: var(--light-gray);
+}
+
+.socialmedia-container button {
+    border: 2px solid palevioletred;
+    color: palevioletred;
+    transition: all .3s;
+}
+
+.socialmedia-container button:hover {
+    background-color: palevioletred;
+    color: #fff;
+}
+
+.imgs-sliders{
+    overflow: hidden;
+    border-radius: 5px;
+}

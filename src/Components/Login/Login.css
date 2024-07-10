@@ -1,0 +1,29 @@
+.login-container {
+    background-color: var(--light-gray);
+    padding: 30px;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.login-container h2 {
+    color: var(--main-color);
+}
+
+.login-container label {
+    color: var(--dark-gray);
+}
+
+.login-btn {
+    width: 100%;
+    text-align: center;
+    background-color: var(--main-color);
+    color: #fff;
+    transition: all .3s;
+}
+
+.login-btn:hover {
+    background-color: var(--light-gray);
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    font-weight: bold;
+}

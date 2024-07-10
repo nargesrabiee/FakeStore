@@ -1,0 +1,11 @@
+.laoding-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.spinner-grow-sm {
+    width: 6px !important;
+    height: 6px !important;
+    background-color: var(--main-color) !important;
+    margin-left: 5px;
+}
